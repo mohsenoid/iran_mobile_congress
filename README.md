@@ -3,11 +3,11 @@ iran_mobile_congress
 
 <h1>Iran Mobile Congress Android Application</h1>
 
-<b>About Event</b>
+<h3>About Event:</h3>
 The biggest meeting of mobile technology ‘s Practitioners
 The center of Sharif Industrial university’s studies with the point of using the capacity of mobile technology and answering to communication huge society’s needs and also inform all people about new technology after second conference about Iran’s mobile and first mobile innovation’s festival in the last year had decided to hold off it every year . We hope , we will succeed in this way to improve communication and mobile’s information.
 
-<b>Event Goals:</b>
+<h3>Event Goals:</h3>
 - Introduce mobile’s new technology to all people
 - Identify young and Toddler’s team
 - Motivate people to public participation in different situations
@@ -17,3 +17,7 @@ The center of Sharif Industrial university’s studies with the point of using t
 - Improve young teams and toddler’s appetence and Upgrade society ‘s Communications
 
 This mobile’s congress was held off at Tehran ‘s permanent international Exhibition – date : 17 February 2013 - 20 February 2013
+
+Designed By: <a href="http://www.mirhoseini.info" target="_blank"><b>Mohsen Mirhoseini Argi</b></a><br />
+
+Contact me: mohsen@mirhoseini.info
