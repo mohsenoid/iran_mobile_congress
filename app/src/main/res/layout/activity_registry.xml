@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background1">
+
+    <include
+        android:id="@+id/includeHeader"
+        layout="@layout/header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <RelativeLayout
+        android:id="@+id/personalButtonLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true">
+
+        <Button
+            android:id="@+id/btnSend"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:text="@string/btn_send"
+            android:textColor="@color/text" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:id="@+id/personalInfoScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/personalButtonLayout"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/lblTitle"
+        android:padding="10dp">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:orientation="horizontal">
+
+            <TableRow
+                android:id="@+id/tableRow1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top|right"
+                android:layout_marginBottom="10dp"
+                android:gravity="top|right">
+
+                <EditText
+                    android:id="@+id/etFname"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right|top"
+                    android:layout_weight="3"
+                    android:ems="10"
+                    android:gravity="right"
+                    android:inputType="textPersonName"
+                    android:maxLength="50"
+                    android:textColorHint="@color/hint" />
+
+                <TextView
+                    android:id="@+id/tvFname"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:text="@string/strRegFormFname"
+                    android:textColor="@color/text" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top|right"
+                android:layout_marginBottom="10dp">
+
+                <EditText
+                    android:id="@+id/etLname"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top|right"
+                    android:layout_weight="3"
+                    android:ems="10"
+                    android:gravity="right"
+                    android:inputType="textPersonName"
+                    android:maxLength="50"
+                    android:textColorHint="@color/hint" />
+
+                <TextView
+                    android:id="@+id/tvLname"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:text="@string/strRegFormLname"
+                    android:textColor="@color/text" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top|right"
+                android:layout_marginBottom="10dp"
+                android:gravity="top|left">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:gravity="right">
+
+                    <EditText
+                        android:id="@+id/etBirthYear"
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:gravity="right"
+                        android:hint="@string/strRegFormBirthDateHint"
+                        android:inputType="number"
+                        android:maxLength="50"
+                        android:textColorHint="@color/hint" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/tvBirthYear"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:text="@string/strRegFormBirthDate"
+                    android:textColor="@color/text" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_weight="3"
+                    android:gravity="right">
+
+                    <EditText
+                        android:id="@+id/etPhoneCode"
+                        android:layout_width="65dp"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/strRegFormPhoneCodeHint"
+                        android:inputType="number"
+                        android:maxLength="4"
+                        android:text="@string/strRegFormPhoneCodeHint"
+                        android:textColorHint="@color/hint" />
+
+                    <TextView
+                        android:id="@+id/tvPhoneCode"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/strRegFormCode"
+                        android:textColor="@color/text" />
+
+                    <EditText
+                        android:id="@+id/etPhoneNo"
+                        android:layout_width="115dp"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:gravity="center_vertical"
+                        android:inputType="number"
+                        android:maxLength="8"
+                        android:textColorHint="@color/hint" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/tvPhoneNo"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:text="@string/strRegFormPhone"
+                    android:textColor="@color/text" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_weight="3"
+                    android:gravity="right">
+
+                    <Spinner
+                        android:id="@+id/spEducation"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:entries="@array/educations" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/tvEducation"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:text="@string/strRegFormEducation"
+                    android:textColor="@color/text" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_weight="3"
+                    android:gravity="right"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:gravity="right">
+
+                        <TextView
+                            android:id="@+id/tvCurseMobile"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="right"
+                            android:text="@string/strRegFormCurseMobile"
+                            android:textColor="@color/text" />
+
+                        <CheckBox
+                            android:id="@+id/cbMobile"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:gravity="right">
+
+                        <TextView
+                            android:id="@+id/tvCurseAndroid"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="right"
+                            android:text="@string/strRegFormCurseAndroid"
+                            android:textColor="@color/text" />
+
+                        <CheckBox
+                            android:id="@+id/cbAndroid"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:gravity="right">
+
+                        <TextView
+                            android:id="@+id/tvCurseIos"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="right"
+                            android:text="@string/strRegFormCurseIos"
+                            android:textColor="@color/text" />
+
+                        <CheckBox
+                            android:id="@+id/cbIos"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/tvCurses"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:text="@string/strRegFormCurses"
+                    android:textColor="@color/text" />
+            </TableRow>
+        </TableLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/lblTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/includeHeader"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="@string/btn_registration"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/text" />
+
+</RelativeLayout>

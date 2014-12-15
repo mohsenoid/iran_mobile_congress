@@ -1,0 +1,21 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	direction: rtl;
+	background-color: transparent;
+}
+p, li {
+	direction: rtl;
+	text-align: right;
+	line-height: 20pt;
+	font-family: tahoma;
+	font-size: 8pt
+}
+table {
+	border: 0px;
+	padding: 0;
+	direction: rtl;
+}
+img{
+}

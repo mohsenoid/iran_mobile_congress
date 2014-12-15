@@ -1,0 +1,32 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="AppThemeMain" parent="android:Theme.Light.NoTitleBar.Fullscreen" />
+
+    <style name="AppThemePages" parent="android:Theme.WithActionBar">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@style/Animations.Pages</item>
+    </style>
+
+    <style name="Theme.Transparent" parent="android:Theme">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowAnimationStyle">@style/Animations.SplashScreen</item>
+    </style>
+
+    <style name="Animations" parent="@android:Animation" />
+
+    <style name="Animations.SplashScreen">
+        <item name="android:windowEnterAnimation">@anim/appear</item>
+        <item name="android:windowExitAnimation">@anim/disappear</item>
+    </style>
+
+    <style name="Animations.Pages">
+        <item name="android:windowEnterAnimation">@anim/appearpage</item>
+        <item name="android:windowExitAnimation">@anim/disappearpage</item>
+    </style>
+
+</resources>

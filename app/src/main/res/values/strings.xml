@@ -1,0 +1,117 @@
+<resources>
+
+    <string name="app_name">Iran Mobile Congress</string>
+    <string name="app_version">1.5</string>
+    <string name="menu_settings">تنظیمات&#8230;</string>
+    <string name="title_activity_main">کنگره موبایل ایران</string>
+    <string name="app_file_error">خطا در نمایش اطلاعات!</string>
+    <string name="menu_back">بازگشت&#8230;</string>
+    <string name="msg_exit">برای خروج از نرم افزار مجدد دکمه بازگشت را بفشارید&#8230;</string>
+    <string name="btn_about">معرفی کنگره</string>
+    <string name="btn_goal">اهداف کنگره</string>
+    <string name="btn_history">تاریخچه کنگره</string>
+    <string name="btn_program">برنامه های کنگره</string>
+    <string name="btn_congress">همایش ها</string>
+    <string name="btn_award">جشنواره</string>
+    <string name="btn_exibition">نمایشگاه تخصصی</string>
+    <string name="btn_calendar">تقویم کنگره</string>
+    <string name="btn_registration">ثبت نام در کارگاههای آموزشی</string>
+    <string name="btn_join">عضویت در خبرنامه پیامکی</string>
+    <string name="btn_back">بازگشت</string>
+    <string name="btn_send">ثبت نام</string>
+    <string name="powered"> - </string>
+    <string name="dialog_JoinSMS_title">اشتراک</string>
+    <string name="dialog_JoinSMS">مایل به عضویت در خبرنامه کنگره از طریق پیامک هستید؟</string>
+    <string name="dialog_RegistrySMS_title">ثبت نام</string>
+    <string name="dialog_RegistrySMS">آیا از ارسال اطلاعات ثبت نام از طریق پیامک اطمینان دارید؟</string>
+    <string name="dialog_SMS_done">با تشکر، پیامک درخواست  ارسال شد.</string>
+    <string name="dialog_SMS_notdone">به یکی از دلایل ذیل امکان ارسال پیامک وجود ندارد، شما میتوانید در اولین فرصت از طریق منوی نرم افزار اقدام به ارسال درخواست اشتراک نمایید:\n- عدم آنتن دهی مناسب\n- اتمام شارژ\n- عدم ارتباط با مرکز</string>
+    <string name="dialog_btn_Join">ارسال از طریق پیامک</string>
+    <string name="dialog_btn_yes">تأیید</string>
+    <string name="dialog_btn_no">انصراف</string>
+    <string name="dialog_btn_close">بستن</string>
+    <string name="callCenterNo">30003300096535</string>
+    <string name="progress_sms_title">درحال ارسال پیامک</string>
+    <string name="progress_sms">لطفا منتظر بمانید&#8230;</string>
+    <string name="strRegFormFname">نام:</string>
+    <string name="strRegFormLname">نام خانوادگی:</string>
+    <string name="strRegFormBirthDate">سال تولد:</string>
+    <string name="strRegFormBirthDateHint">1360</string>
+    <string name="strRegFormPhone">تلفن تماس ثابت:</string>
+    <string name="strRegFormCode">کد:</string>
+    <string name="strRegFormAddress">آدرس:</string>
+    <string name="strRegFormEducation">مدرک تحصیلی:</string>
+    <string name="strRegFormCurses">دوره مورد نظر:</string>
+    <string name="strRegFormCurseMobile">آشنایی با ابزارهای هوشمند همراه</string>
+    <string name="strRegFormCurseAndroid">آشنایی با مفاهیم برنامه نویسی Android</string>
+    <string name="strRegFormCurseIos">آشنایی با مفایم برنامه نویسی ios</string>
+    <string name="strRegFormPhoneCodeHint">021</string>
+    <string name="strDialogRegTitle">ثبت نام</string>
+    <string name="strDialogRegPerInfoErrorText">لطفا پیش از ارسال فرم ثبت نام موارد ذیل را تکمیل و یا اصلاح نمایید:</string>
+    <string name="strRegFormFnameError">نام</string>
+    <string name="strRegFormLnameError">نام خانوادگی</string>
+    <string name="strRegFormBirthYearError">سال تولد</string>
+    <string name="strRegFormCursesError">دوره مورد نظر</string>
+    <string name="congressURL">http://www.iranmobilecongress.com</string>
+    <string name="myURL">http://mirhoseini.info</string>
+
+    <string-array name="sponsersURL">
+        <item>http://www.aparat.com/</item>
+        <item>http://mihanblog.com/</item>
+        <item>http://www.cloob.com/</item>
+        <item>http://www.ictpress.ir/</item>
+        <item>http://www.civilica.com/</item>
+        <item>http://www.mobilestan.net/</item>
+        <item>http://www.ebmag.ir/</item>
+        <item>http://www.gooshishop.com/</item>
+        <item>http://www.rond.ir/</item>
+        <item>http://www.noandishaan.com/</item>
+        <item>http://www.mymap.ir/</item>
+        <item>http://hitna.ir/</item>
+        <item>http://www.ir-tci.org/</item>
+        <item>http://ictna.ir/</item>
+        <item>http://www.almasmobile.com/</item>
+        <item>http://mob.ir/</item>
+        <item>http://gsm.ir/</item>
+        <item>http://www.alldigitall.ir/</item>
+        <item>http://www.iranimobile.com/</item>
+        <item>http://webmagazine.mft.info/</item>
+        <item></item>
+        <item>http://www.hamrahebartar.com/</item>
+        <item>http://cafebazaar.ir/</item>
+        <item>http://ebinews.com/</item>
+        <item></item>
+        <item>http://and-roid.ir/</item>
+        <item>http://virtualbanking.ir/</item>
+        <item>http://webna.ir/</item>
+        <item>http://www.shabakeh-mag.com/</item>
+        <item>http://netbarg.com/</item>
+        <item>http://www.bartarinha.ir/</item>
+        <item>http://www.eghtesadeiranonline.com/</item>
+        <item>http://asreertebat.com/</item>
+        <item>http://telmag.ir/</item>
+        <item>http://www.itmen.ir/</item>
+        <item>http://itna.ir/</item>
+        <item>http://www.narenji.ir/</item>
+        <item>http://digitalmag.ir/</item>
+        <item>http://www.ebg.ir/</item>
+        <item>http://khabarfarsi.com/</item>
+    </string-array>
+    <string-array name="slideshowTitles">
+        <item>افتتاحیه-حضور و سخنرانی مقامات و مسئولین ارشد صنعت مخابرات کشور</item>
+        <item>بررسی وضعیت فناوری همراه ایران و جهان در همایش های علمی و کاربردی با حضور سخنرانان داخلی و خارجی</item>
+        <item>در مسابقات جشنواره شرکت کنید و برنده جوایز ارزنده شوید!</item>
+        <item>از بزرگترین نمایشگاه تخصصی موبایل کشور بازدید فرمایید - بازدید برای عموم آزاد است!</item>
+        <item>هم اکنون ثبت نام کنید</item>
+    </string-array>
+    <string-array name="educations">
+        <item>دانشجو</item>
+        <item>زیر دیپلم</item>
+        <item>دیپلم</item>
+        <item>فوق دیپلم</item>
+        <item>لیسانس</item>
+        <item>فوق لیسانس</item>
+        <item>دکتری و بالاتر</item>
+    </string-array>
+
+</resources>

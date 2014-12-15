@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="theme1">#422582</color>
+    <color name="theme2">#9e1780</color>
+    <color name="theme3">#6fb31d</color>
+    <color name="theme4">#aecb04</color>
+    <color name="theme5">#e0e0e0</color>
+    <color name="theme6">#a5a5a5</color>
+    <color name="theme7">#9f1881</color>
+    <color name="theme8">#fff</color>
+    <color name="theme9">#dfff</color>
+    <color name="text">#fff</color>
+    <color name="hint">#ddd</color>
+
+</resources>
