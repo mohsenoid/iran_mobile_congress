@@ -29,3 +29,5 @@ proguard/
 /.idea/libraries
 .DS_Store
 /publish
+
+Thumbs.db
